@@ -97,7 +97,7 @@ $ find ~/boost_1_87_0 -name "any.hpp"
 ```sh
 $ grep -rnw ~/boost_1_87_0 -e 'boost::asio'
 
-<[вывод команды в файле 7.txt]()>
+<[вывод команды в файле 7.txt](https://github.com/PraWek/TPlab01/blob/main/7.txt)>
 ```
 8. Скомпилирутйе *boost*. Можно воспользоваться [инструкцией](https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html#or-build-custom-binaries) или [ссылкой](https://codeyarns.com/2017/01/24/how-to-build-boost-on-linux/).
 ```sh
@@ -105,7 +105,7 @@ $ cd ~/boost_1_69_0
 $ ./bootstrap.sh
 $ ./b2
 
-<[вывод команды в файле 8.txt]()>
+<[вывод команды в файле 8.txt](https://github.com/PraWek/TPlab01/blob/main/8.txt)>
 ```
 9. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
 ```sh
